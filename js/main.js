@@ -35,7 +35,8 @@ let studioOrder = [];
         '3d print': '👾',
         'print': '🖼',
         'sculpt': '🗿',
-        'digital': '💻'
+        'digital': '💻',
+        'photo': '📸'
       };
 
       shopTypes = Object.keys(SHOP_EMOJI_MAP).sort();

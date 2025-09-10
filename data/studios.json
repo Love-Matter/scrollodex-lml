@@ -9,8 +9,7 @@
       "digital",
       "textile",
       "ceramic",
-      "machine"
-    ],
+      "machine"],
     "description": "NYC's largest community makerspace providing industrial workspace for creators.",
     "website": "https://www.makerspace.nyc/",
     "email": "info@makerspace.nyc",
@@ -26,8 +25,7 @@
       "wood",
       "metal",
       "print",
-      "machine"
-    ],
+      "machine"],
     "description": "Professional artist cooperative providing industrial workshop facilities and private studios for emerging creatives",
     "website": "https://www.gowanusstudio.org/join",
     "email": "info@gowanusstudio.org",
@@ -40,8 +38,7 @@
     "neighborhood": "Bed-Stuy",
     "city": "Brooklyn",
     "shops": [
-      "wood"
-    ],
+      "wood"],
     "description": "Community workshop offering flexible membership options for makers, designers, and engineers in North Brooklyn's creative ecosystem.",
     "website": "https://bkindustrial.art/",
     "email": "info@bkindustrial.art",
@@ -58,8 +55,7 @@
       "ceramic",
       "textile",
       "3d print",
-      "digital"
-    ],
+      "digital"],
     "description": "Volunteer-run Brooklyn maker community fostering skill-sharing and hands-on creation for all experience levels through shared space and collaborative repair events.",
     "website": "https://brooklynspark.com/",
     "email": "support@brooklynspark.com",
@@ -72,8 +68,7 @@
     "neighborhood": "Bed-Stuy",
     "city": "Brooklyn",
     "shops": [
-      "textile"
-    ],
+      "textile"],
     "description": "Sewing studio empowering custom garment creation through body-positive sewing instruction and confidence-building craftsmanship.",
     "website": "https://workroomsocial.com/",
     "email": "hello@workroomsocial.com ",
@@ -86,8 +81,7 @@
     "neighborhood": "Gowanus",
     "city": "Brooklyn",
     "shops": [
-      "wood"
-    ],
+      "wood"],
     "description": "Inclusive woman/queer-owned woodworking studio providing scholarship-supported craft education and safe creative space for diverse makers.",
     "website": "https://makeville.com/",
     "email": "hello@makeville.com",
@@ -105,8 +99,7 @@
       "laser",
       "3d print",
       "digital",
-      "photo"
-    ],
+      "photo"],
     "description": "100% volunteer-run makerspace offering 24/7 tool access and collaborative making for diverse creators.",
     "website": "https://fatcatfablab.org/",
     "email": "info@fatcatfablab.org",
@@ -121,8 +114,7 @@
     "shops": [
       "laser",
       "digital",
-      "print"
-    ],
+      "print"],
     "description": "Hacker collective who meets regularly to share knowledge, hack on projects together, and build community.",
     "website": "https://www.nycresistor.com/",
     "email": "contact@nycresistor.com",
@@ -137,8 +129,7 @@
     "shops": [
       "ceramic",
       "textile",
-      "print"
-    ],
+      "print"],
     "description": "Artist-centered fabrication hub supporting creative production through collaborative workshops and professional resources.",
     "website": "https://powerhousearts.org/",
     "email": "info@powerhousearts.org",
@@ -151,8 +142,7 @@
     "neighborhood": "Fort Greene",
     "city": "Brooklyn",
     "shops": [
-      "ceramic"
-    ],
+      "ceramic"],
     "description": "Approachable ceramics studio fostering creative expression through accessible pottery instruction and community-focused making.",
     "website": "https://www.luckypigpottery.com/",
     "email": "",
@@ -165,8 +155,7 @@
     "neighborhood": "Navy Yard",
     "city": "Brooklyn",
     "shops": [
-      "ceramic"
-    ],
+      "ceramic"],
     "description": "Approachable ceramics studio fostering creative expression through accessible pottery instruction and community-focused making.",
     "website": "https://www.brooklynclayindustries.com",
     "email": "",
@@ -179,8 +168,7 @@
     "neighborhood": "Bushwick",
     "city": "Brooklyn",
     "shops": [
-      "ceramic"
-    ],
+      "ceramic"],
     "description": "Confidence-building pottery classes where beginners master the wheel and seasoned potters discover new techniques",
     "website": "https://www.maisonclay.com/",
     "email": "info@maisonclay.com",
