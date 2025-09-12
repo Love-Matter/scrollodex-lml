@@ -17,7 +17,6 @@
     "phone": "+17182733951",
     "address": "Brooklyn Army Terminal, 140 58th St building b unit 1c, Brooklyn, NY 11220"
   },
-  
   {
     "name": "Gowanus Studio Space",
     "neighborhood": "Gowanus",
@@ -34,7 +33,6 @@
     "phone": "+19177711713",
     "address": "166 7th St, Brooklyn, NY 11215"
   },
-
   {
     "name": "Brooklyn Industrial Arts",
     "neighborhood": "Bed-Stuy",
@@ -48,7 +46,6 @@
     "phone": "+17182733951",
     "address": "544 Park Ave, Suite 332, Brooklyn NY 11205"
   },
-
   {
     "name": "Brooklyn Spark",
     "neighborhood": "Bushwick",
@@ -66,7 +63,6 @@
     "phone": "",
     "address": "75 Stewart Ave Suite 110, Brooklyn, NY 11237"
   },
-
   {
     "name": "Workroom Social",
     "neighborhood": "Bed-Stuy",
@@ -80,7 +76,6 @@
     "phone": "+16464811650",
     "address": "96 Madison St, Brooklyn, NY 11216"
   },
-
   {
     "name": "Makeville Studio",
     "neighborhood": "Gowanus",
@@ -94,7 +89,6 @@
     "phone": "+19178735542",
     "address": "125 8th St, Brooklyn, NY 11215"
   },
-
   {
     "name": "Fat Cat Fab Lab",
     "neighborhood": "Greenwhich",
@@ -113,7 +107,6 @@
     "phone": "+12014723671",
     "address": "224 W 4th St #250, New York, NY 10014"
   },
-
   {
     "name": "NYC Resistor",
     "neighborhood": "Boreum Hill",
@@ -129,7 +122,6 @@
     "phone": "+13475869270",
     "address": "87 3rd Ave, Brooklyn, NY 11217"
   },
-
   {
     "name": "Powerhouse Arts",
     "neighborhood": "Gowanus",
@@ -145,7 +137,6 @@
     "phone": "+17185221400",
     "address": "322 3rd Ave, Brooklyn, NY 11215"
   },
-
   {
     "name": "Lucky Pig Pottery",
     "neighborhood": "Fort Greene",
@@ -159,7 +150,6 @@
     "phone": "",
     "address": "242 DeKalb Ave Floor 2, Brooklyn, NY 11205"
   },
-
   {
     "name": "Brooklyn Clay Industries",
     "neighborhood": "Navy Yard",
@@ -173,7 +163,6 @@
     "phone": "+19174434313",
     "address": "Brooklyn Navy Yard, 62 5th St Suite 306, Brooklyn, NY 11205"
   },
-
   {
     "name": "Maison Clay",
     "neighborhood": "Bushwick",
@@ -187,7 +176,6 @@
     "phone": "+13477764124",
     "address": "310 Meserole St, Brooklyn, NY 11206"
   }
-
   {
     "name": "Brooklyn Glass",
     "neighborhood": "Gowanus",
@@ -201,7 +189,6 @@
     "phone": "+17185692110",
     "address": "142 13th St, Brooklyn, NY 11215"
   }
-
   {
     "name": "Urban Glass",
     "neighborhood": "Gowanus",
