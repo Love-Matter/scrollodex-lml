@@ -1,320 +1,218 @@
 [
   {
-    "name": "Mega Studio",
-    "neighborhood": "Williamsburg",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "glass",
-      "ceramic",
-      "textile",
-      "machine",
-      "leather",
-      "laser",
-      "paint"
-    ],
-    "description": "A massive creative hub with all 13 shop types under one roof. Features rotating exhibitions, artist residencies, and weekly community workshops.",
-    "website": "https://www.megastudiobrooklyn.com",
-    "email": "info@megastudiobrooklyn.com",
-    "phone": "+1 (718) 555-0199"
-  },
-  {
-    "name": "Williamsburg Maker Space",
-    "neighborhood": "Williamsburg",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "glass",
-      "ceramic",
-      "textile",
-      "machine",
-      "leather",
-      "3d print",
-      "print"
-    ],
-    "description": "A premier destination for makers featuring all traditional and digital fabrication tools. Monthly workshops and open studio nights every Thursday.",
-    "website": "https://www.williamsburgmakerspace.com",
-    "email": "hello@williamsburgmakerspace.com",
-    "phone": "+1 (718) 555-0101"
-  },
-  {
-    "name": "Bushwick Workshop",
-    "neighborhood": "Bushwick",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "3d print",
-      "sculpt"
-    ],
-    "description": "Specializing in woodworking and 3D printing. Features CNC machines and laser cutters. Weekly skill-sharing sessions for members.",
-    "website": "https://www.bushwickworkshop.com",
-    "email": "contact@bushwickworkshop.com",
-    "phone": "+1 (718) 555-0102"
-  },
-  {
-    "name": "Greenpoint Fabricators",
-    "neighborhood": "Greenpoint",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "glass",
-      "ceramic",
-      "textile",
-      "machine",
-      "leather",
-      "3d print"
-    ],
-    "description": "Community-focused fabrication space serving makers of all skill levels. Features a small cafe and regular open house events.",
-    "website": "https://www.greenpointfabricators.com",
-    "email": "hello@greenpointfabricators.com",
-    "phone": "+1 (718) 555-0103"
-  },
-  {
-    "name": "DUMBO Creative",
-    "neighborhood": "DUMBO",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "3d print"
-    ],
-    "description": "Small studio space with stunning Manhattan skyline views. Specializes in precision woodworking and digital fabrication.",
-    "website": "https://www.dumbocreative.com",
-    "email": "info@dumbocreative.com",
-    "phone": "+1 (718) 555-0104"
-  },
-  {
-    "name": "Bed-Stuy Workshop",
-    "neighborhood": "Bedford-Stuyvesant",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "ceramic",
-      "textile",
-      "machine"
-    ],
-    "description": "Historic brownstone converted into maker studios. Focuses on supporting local artisans through affordable workspace and mentorship programs.",
-    "website": "https://www.bedstuyworkshop.com",
-    "email": "contact@bedstuyworkshop.com",
-    "phone": "+1 (718) 555-0105"
-  },
-  {
-    "name": "LIC Makerspace",
-    "neighborhood": "Long Island City",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "glass",
-      "ceramic",
-      "textile",
-      "machine",
-      "leather",
-      "3d print",
-      "paint"
-    ],
-    "description": "Industrial-sized creative space in a converted warehouse. Features large-scale equipment and monthly maker markets.",
-    "website": "https://www.licmakerspace.com",
-    "email": "hello@licmakerspace.com",
-    "phone": "+1 (718) 555-0106"
-  },
-  {
-    "name": "Crown Heights Studio",
-    "neighborhood": "Crown Heights",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "ceramic",
-      "textile",
-      "machine"
-    ],
-    "description": "Community maker center offering classes for children and adults. Specializes in traditional craft techniques and modern fabrication.",
-    "website": "https://www.crownheightsstudio.com",
-    "email": "info@crownheightsstudio.com",
-    "phone": "+1 (718) 555-0107"
-  },
-  {
-    "name": "Prospect Heights Workshop",
-    "neighborhood": "Prospect Heights",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "ceramic",
-      "textile",
-      "machine",
-      "3d print",
-      "digital"
-    ],
-    "description": "European-style workshop focusing on traditional craftsmanship with modern tools. Offers specialized courses in furniture making and digital design.",
-    "website": "https://www.prospectheightsworkshop.com",
-    "email": "contact@prospectheightsworkshop.com",
-    "phone": "+1 (718) 555-0108"
-  },
-  {
-    "name": "Gowanus Fabrication",
-    "neighborhood": "Gowanus",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "3d print"
-    ],
-    "description": "Specialized digital fabrication studio with professional-grade 3D printers and CNC machines. Offers training and prototyping services.",
-    "website": "https://www.gowanusfabrication.com",
-    "email": "hello@gowanusfabrication.com",
-    "phone": "+1 (718) 555-0109"
-  },
-  {
-    "name": "Sunset Park Makers",
+    "name": "Makerspace NYC",
     "neighborhood": "Sunset Park",
     "city": "Brooklyn",
     "shops": [
       "wood",
       "metal",
-      "ceramic",
+      "digital",
       "textile",
-      "machine",
-      "print"
+      "ceramic",
+      "machine"
     ],
-    "description": "Multicultural maker space serving the diverse Sunset Park community. Features bilingual classes and workshops highlighting traditional crafts.",
-    "website": "https://www.sunsetparkmakers.com",
-    "email": "info@sunsetparkmakers.com",
-    "phone": "+1 (718) 555-0110"
+    "description": "NYC's largest community makerspace providing industrial workspace for creators.",
+    "website": "https://www.makerspace.nyc/",
+    "email": "info@makerspace.nyc",
+    "phone": "+17182733951",
+    "address": "Brooklyn Army Terminal, 140 58th St building b unit 1c, Brooklyn, NY 11220"
   },
+  
   {
-    "name": "Flatbush Workshop",
-    "neighborhood": "Flatbush",
+    "name": "Gowanus Studio Space",
+    "neighborhood": "Gowanus",
     "city": "Brooklyn",
     "shops": [
       "wood",
       "metal",
-      "glass",
-      "ceramic",
-      "textile",
-      "machine",
-      "leather",
-      "print"
-    ],
-    "description": "Community maker center with workshop space and tool library. Hosts the annual Flatbush Makers Festival in June.",
-    "website": "https://www.flatbushworkshop.com",
-    "email": "contact@flatbushworkshop.com",
-    "phone": "+1 (718) 555-0111"
-  },
-  {
-    "name": "Park Slope Studio",
-    "neighborhood": "Park Slope",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "ceramic",
-      "textile",
-      "leather"
-    ],
-    "description": "Cozy neighborhood studio offering classes for parents and children. Specializes in family-friendly making activities and birthday parties.",
-    "website": "https://www.parkslopeworkshop.com",
-    "email": "hello@parkslopeworkshop.com",
-    "phone": "+1 (718) 555-0112"
-  },
-  {
-    "name": "Red Hook Makers",
-    "neighborhood": "Red Hook",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "3d print",
-      "textile"
-    ],
-    "description": "Waterfront maker space with stunning harbor views. Focuses on sustainable making practices and community projects addressing local needs.",
-    "website": "https://www.redhookmakers.com",
-    "email": "info@redhookmakers.com",
-    "phone": "+1 (718) 555-0113"
-  },
-  {
-    "name": "Williamsburg Micro Studio",
-    "neighborhood": "Williamsburg",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "3d print"
-    ],
-    "description": "Micro-studio space designed for emerging makers needing affordable workspace in the heart of Williamsburg. Limited to 10 members at a time.",
-    "website": "https://www.williamsburgmicrostudio.com",
-    "email": "contact@williamsburgmicrostudio.com",
-    "phone": "+1 (718) 555-0114"
-  },
-  {
-    "name": "Bushwick Experimental",
-    "neighborhood": "Bushwick",
-    "city": "Brooklyn",
-    "shops": [
-      "wood",
-      "metal",
-      "3d print",
-      "laser",
-      "sculpt"
-    ],
-    "description": "Cutting-edge space for experimental making. Features advanced digital fabrication tools and specialized equipment for unique projects.",
-    "website": "https://www.bushwickexperimental.com",
-    "email": "hello@bushwickexperimental.com",
-    "phone": "+1 (718) 555-0115"
-  },
-  {
-    "name": "Brooklyn Paint Collective",
-    "neighborhood": "Williamsburg",
-    "city": "Brooklyn",
-    "shops": [
-      "paint",
       "print",
+      "machine"
+    ],
+    "description": "Professional artist cooperative providing industrial workshop facilities and private studios for emerging creatives",
+    "website": "https://www.gowanusstudio.org/join",
+    "email": "info@gowanusstudio.org",
+    "phone": "+19177711713",
+    "address": "166 7th St, Brooklyn, NY 11215"
+  },
+
+  {
+    "name": "Brooklyn Industrial Arts",
+    "neighborhood": "Bed-Stuy",
+    "city": "Brooklyn",
+    "shops": [
       "wood"
     ],
-    "description": "Specialized studio for traditional and contemporary painting techniques. Features natural north light and professional-grade materials.",
-    "website": "https://www.brooklynpaintcollective.com",
-    "email": "info@brooklynpaintcollective.com",
-    "phone": "+1 (718) 555-0116"
+    "description": "Community workshop offering flexible membership options for makers, designers, and engineers in North Brooklyn's creative ecosystem.",
+    "website": "https://bkindustrial.art/",
+    "email": "info@bkindustrial.art",
+    "phone": "+17182733951",
+    "address": "544 Park Ave, Suite 332, Brooklyn NY 11205"
   },
+
   {
-    "name": "Print Hub",
+    "name": "Brooklyn Spark",
     "neighborhood": "Bushwick",
     "city": "Brooklyn",
     "shops": [
-      "print",
+      "wood",
+      "ceramic",
       "textile",
-      "leather"
+      "3d print",
+      "digital"
     ],
-    "description": "Premier destination for printmaking including screen printing, letterpress, and etching. Offers open studio time and professional printing services.",
-    "website": "https://www.printhubbrooklyn.com",
-    "email": "contact@printhubbrooklyn.com",
-    "phone": "+1 (718) 555-0117"
+    "description": "Volunteer-run Brooklyn maker community fostering skill-sharing and hands-on creation for all experience levels through shared space and collaborative repair events.",
+    "website": "https://brooklynspark.com/",
+    "email": "support@brooklynspark.com",
+    "phone": "",
+    "address": "75 Stewart Ave Suite 110, Brooklyn, NY 11237"
   },
+
   {
-    "name": "Artisan Print Studio",
-    "neighborhood": "Greenpoint",
+    "name": "Workroom Social",
+    "neighborhood": "Bed-Stuy",
     "city": "Brooklyn",
     "shops": [
-      "print",
-      "paint"
+      "textile"
     ],
-    "description": "Specializes in fine art printing and painting restoration. Features vintage printing presses and conservation-grade materials.",
-    "website": "https://www.artisanprintstudio.com",
-    "email": "hello@artisanprintstudio.com",
-    "phone": "+1 (718) 555-0118"
+    "description": "Sewing studio empowering custom garment creation through body-positive sewing instruction and confidence-building craftsmanship.",
+    "website": "https://workroomsocial.com/",
+    "email": "hello@workroomsocial.com ",
+    "phone": "+16464811650",
+    "address": "96 Madison St, Brooklyn, NY 11216"
   },
+
   {
-    "name": "Paint & Sculpt Workshop",
-    "neighborhood": "DUMBO",
+    "name": "Makeville Studio",
+    "neighborhood": "Gowanus",
     "city": "Brooklyn",
     "shops": [
-      "paint",
-      "sculpt",
-      "laser"
+      "wood"
     ],
-    "description": "Waterfront studio specializing in painting and sculpture. Features outdoor workspaces and views of the Manhattan skyline.",
-    "website": "https://www.paintsculptdumbo.com",
-    "email": "info@paintsculptdumbo.com",
-    "phone": "+1 (718) 555-0119"
+    "description": "Inclusive woman/queer-owned woodworking studio providing scholarship-supported craft education and safe creative space for diverse makers.",
+    "website": "https://makeville.com/",
+    "email": "hello@makeville.com",
+    "phone": "+19178735542",
+    "address": "125 8th St, Brooklyn, NY 11215"
+  },
+
+  {
+    "name": "Fat Cat Fab Lab",
+    "neighborhood": "Greenwhich",
+    "city": "Manhattan",
+    "shops": [
+      "wood",
+      "textile",
+      "laser",
+      "3d print",
+      "digital",
+      "photo"
+    ],
+    "description": "100% volunteer-run makerspace offering 24/7 tool access and collaborative making for diverse creators.",
+    "website": "https://fatcatfablab.org/",
+    "email": "info@fatcatfablab.org",
+    "phone": "+12014723671",
+    "address": "224 W 4th St #250, New York, NY 10014"
+  },
+
+  {
+    "name": "NYC Resistor",
+    "neighborhood": "Boreum Hill",
+    "city": "Brooklyn",
+    "shops": [
+      "laser",
+      "digital",
+      "print"
+    ],
+    "description": "Hacker collective who meets regularly to share knowledge, hack on projects together, and build community.",
+    "website": "https://www.nycresistor.com/",
+    "email": "contact@nycresistor.com",
+    "phone": "+13475869270",
+    "address": "87 3rd Ave, Brooklyn, NY 11217"
+  },
+
+  {
+    "name": "Powerhouse Arts",
+    "neighborhood": "Gowanus",
+    "city": "Brooklyn",
+    "shops": [
+      "ceramic",
+      "textile",
+      "print"
+    ],
+    "description": "Artist-centered fabrication hub supporting creative production through collaborative workshops and professional resources.",
+    "website": "https://powerhousearts.org/",
+    "email": "info@powerhousearts.org",
+    "phone": "+17185221400",
+    "address": "322 3rd Ave, Brooklyn, NY 11215"
+  },
+
+  {
+    "name": "Lucky Pig Pottery",
+    "neighborhood": "Fort Greene",
+    "city": "Brooklyn",
+    "shops": [
+      "ceramic"
+    ],
+    "description": "Approachable ceramics studio fostering creative expression through accessible pottery instruction and community-focused making.",
+    "website": "https://www.luckypigpottery.com/",
+    "email": "",
+    "phone": "",
+    "address": "242 DeKalb Ave Floor 2, Brooklyn, NY 11205"
+  },
+
+  {
+    "name": "Brooklyn Clay Industries",
+    "neighborhood": "Navy Yard",
+    "city": "Brooklyn",
+    "shops": [
+      "ceramic"
+    ],
+    "description": "Approachable ceramics studio fostering creative expression through accessible pottery instruction and community-focused making.",
+    "website": "https://www.brooklynclayindustries.com",
+    "email": "",
+    "phone": "+19174434313",
+    "address": "Brooklyn Navy Yard, 62 5th St Suite 306, Brooklyn, NY 11205"
+  },
+
+  {
+    "name": "Maison Clay",
+    "neighborhood": "Bushwick",
+    "city": "Brooklyn",
+    "shops": [
+      "ceramic"
+    ],
+    "description": "Confidence-building pottery classes where beginners master the wheel and seasoned potters discover new techniques",
+    "website": "https://www.maisonclay.com/",
+    "email": "info@maisonclay.com",
+    "phone": "+13477764124",
+    "address": "310 Meserole St, Brooklyn, NY 11206"
+  }
+
+  {
+    "name": "Brooklyn Glass",
+    "neighborhood": "Gowanus",
+    "city": "Brooklyn",
+    "shops": [
+      "glass"
+    ],
+    "description": "Artist-owned Brooklyn studio where molten glass transforms into art—rent dual furnaces hourly or master neon bending in beginner-to-pro classes that turn curiosity into creation.",
+    "website": "https://brooklynglass.com/",
+    "email": "info@brooklynglass.com",
+    "phone": "+17185692110",
+    "address": "142 13th St, Brooklyn, NY 11215"
+  }
+
+  {
+    "name": "Urban Glass",
+    "neighborhood": "Gowanus",
+    "city": "Brooklyn",
+    "shops": [
+      "glass"
+    ],
+    "description": "Nonprofit glass hub where beginners transform molten curiosity into neon-bent masterpieces through hands-on blowing, fusing, and flameworking since 1977",
+    "website": "https://urbanglass.org/",
+    "email": "info@urbanglass.org",
+    "phone": "+17186253685",
+    "address": "647 Fulton St, Brooklyn, NY 11217"
   }
 ]
