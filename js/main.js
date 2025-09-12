@@ -32,11 +32,10 @@ let studioOrder = [];
         'leather': '👜',
         'laser': '✂️',
         'paint': '🎨',
-        '3d print': '🏮',
+        '3d print': '👾',
         'print': '🖼',
         'sculpt': '🗿',
-        'digital': '💻',
-        'photo': '📸'
+        'digital': '💻'
       };
 
       shopTypes = Object.keys(SHOP_EMOJI_MAP).sort();
@@ -46,7 +45,7 @@ let studioOrder = [];
       neighborhoodTypes = [...new Set(studios.map(studio => studio.neighborhood))].sort();
       
       // Assign neighborhood emojis
-      const fruitVegEmojis = ['🍎', '🍌', '🍉', '🍊', '🥦', '🥕', '🍆', '🍅', '🥑', '🌽', '🥒', '🧄', '🧅', '🌶️', '🥝', '🍇', '🍓', '🍈', '🍒'];
+      const fruitVegEmojis = ['🍎', '🍌', '🍉', '🍊', '🥦', '🥕', '🍆', '🍅', '🥑', '🌽', '🥒', '🥔', '🧄', '🧅', '🌶️', '🥝', '🍇', '🍓', '🍈', '🍒'];
       const shuffledEmojis = [...fruitVegEmojis].sort(() => Math.random() - 0.5);
       neighborhoodEmojis = {};
       neighborhoodTypes.forEach((neighborhood, index) => {
@@ -74,7 +73,7 @@ let studioOrder = [];
     
         return `
           <div class="studio-name" ${dataAttr}>${studio.name}</div>
-          <div class="location">📍 ${studio.neighborhood} 🏙 ${studio.city}</div>
+          <div class="location">📍 <a href="https://www.google.com/maps/place/Crown+Heights,+Brooklyn,+NY" target="_blank" rel="noopener noreferrer">${studio.neighborhood}</a> 🏙 ${studio.city}</div>
           <div class="shops">
             ${(() => {
               // PRD §SEARCH PRIORITIZATION
@@ -135,10 +134,16 @@ let studioOrder = [];
           </div>
           <div class="description">${studio.description}
           </div>
-        <div class="contact-icons">
-             <a href="${studio.website}" target="_blank" class="contact-icon website"><span>🖥</span></a>
-            <a href="mailto:${studio.email}" class="contact-icon email"><span>📧</span></a>
-            <a href="tel:${studio.phone}" class="contact-icon phone"><span>📱</span></a>
+        <div class="contact">
+            <div class="contact-left"></div>
+            <div class="contact-middle">
+                <a href="${studio.website}" target="_blank"><span>🖥</span></a>
+                <a href="mailto:${studio.email}"><span>📧</span></a>
+                <a href="tel:${studio.phone}"><span>📱</span></a>
+            </div>
+            <div class="contact-right">
+                <span>🗓 Sa: 10a-10p</span>
+            </div>
         </div>
         `;
       }
