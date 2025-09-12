@@ -175,4 +175,30 @@
     "phone": "+13477764124",
     "address": "310 Meserole St, Brooklyn, NY 11206"
   }
+
+  {
+    "name": "Brooklyn Glass",
+    "neighborhood": "Gowanus",
+    "city": "Brooklyn",
+    "shops": [
+      "glass"],
+    "description": "Artist-owned Brooklyn studio where molten glass transforms into art—rent dual furnaces hourly or master neon bending in beginner-to-pro classes that turn curiosity into creation.",
+    "website": "https://brooklynglass.com/",
+    "email": "info@brooklynglass.com",
+    "phone": "+17185692110",
+    "address": "142 13th St, Brooklyn, NY 11215"
+  }
+
+  {
+    "name": "Urban Glass",
+    "neighborhood": "Gowanus",
+    "city": "Brooklyn",
+    "shops": [
+      "glass"],
+    "description": "Nonprofit glass hub where beginners transform molten curiosity into neon-bent masterpieces through hands-on blowing, fusing, and flameworking since 1977",
+    "website": "https://urbanglass.org/",
+    "email": "info@urbanglass.org",
+    "phone": "+17186253685",
+    "address": "647 Fulton St, Brooklyn, NY 11217"
+  }
 ]

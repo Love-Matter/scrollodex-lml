@@ -32,7 +32,7 @@ let studioOrder = [];
         'leather': '👜',
         'laser': '✂️',
         'paint': '🎨',
-        '3d print': '👾',
+        '3d print': '🏮',
         'print': '🖼',
         'sculpt': '🗿',
         'digital': '💻',
@@ -46,7 +46,7 @@ let studioOrder = [];
       neighborhoodTypes = [...new Set(studios.map(studio => studio.neighborhood))].sort();
       
       // Assign neighborhood emojis
-      const fruitVegEmojis = ['🍎', '🍌', '🍉', '🍊', '🥦', '🥕', '🍆', '🍅', '🥑', '🌽', '🥒', '🥔', '🧄', '🧅', '🌶️', '🥝', '🍇', '🍓', '🍈', '🍒'];
+      const fruitVegEmojis = ['🍎', '🍌', '🍉', '🍊', '🥦', '🥕', '🍆', '🍅', '🥑', '🌽', '🥒', '🧄', '🧅', '🌶️', '🥝', '🍇', '🍓', '🍈', '🍒'];
       const shuffledEmojis = [...fruitVegEmojis].sort(() => Math.random() - 0.5);
       neighborhoodEmojis = {};
       neighborhoodTypes.forEach((neighborhood, index) => {
