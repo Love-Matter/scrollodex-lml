@@ -86,7 +86,7 @@ let studioOrder = [];
     
         return `
           <div class="studio-name" ${dataAttr}>${studio.name}</div>
-          <div class="location">📍 ${studio.neighborhood} 🏙 ${studio.city}</div>
+          <div class="location">📍 ${studio.neighborhood}, ${studio.city}</div>
           <div class="shops">
             ${(() => {
               // PRD §SEARCH PRIORITIZATION
