@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scrollodex - Brooklyn Art Studios</title>
+
+    <title>Brooklyn's Craft Index | Find Maker Spaces and Art Studios</title>
+    <meta name="description" content="Discover local 3d print, pottery, electronic, glass blowing, laser cutter, machine, metal, photography, print, textile, and wood working shops near you fast.">
+        
+    <meta property="og:title" content="Brooklyn's Craft Index">
+    <meta property="og:description" content="Find Brooklyn Maker Spaces, Craft Workshops and Art Studios fast. Discover woodworking, ceramics, metalworking and more.">
+    <meta property="og:type" content="website">
+
+    <meta property="og:image" content="/scrollodex.png">
+    <link rel="icon" href="/icon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1><span class="scroll-emoji">📜</span> Scrollodex <span class="scroll-emoji">📜</span></h1>
+    <div class="title-container">
+        <img src="scrollodex.png" class="title-image" alt="Scrollodex Logo">
+        <h1>Scrollodex</h1>
+        <img src="loveandmatter.png" class="title-image" alt="Love and Matter">
+    </div>
     
     <div class="filters">
-        <div class="filter-pill" id="shops-filter">Shops ▾</div>
+        <div class="filter-pill" id="shops-filter">Shops Offered ▾</div>
         <div class="filter-pill" id="neighborhood-filter">Neighborhood ▾</div>
     </div>
     
@@ -29,7 +43,7 @@
         <div class="neighborhood-grid" id="neighborhoods-options"></div>
     </div>
     
-    <div class="rolodex-container">
+    <div class="container">
         <div class="card" id="left-card"></div>
         <div class="card" id="right-card"></div>
     </div>

@@ -22,27 +22,40 @@ let studioOrder = [];
       
       filteredStudios = [...studioOrder];
       
-      SHOP_EMOJI_MAP = {
-        'wood': '🪵',
-        'metal': '💥',
-        'glass': '⚗️',
-        'ceramic': '🏺',
-        'textile': '🧵',
-        'machine': '⚙️',
-        'leather': '👜',
-        'laser': '✂️',
-        'paint': '🎨',
-        '3d print': '💍',
-        'print': '🖼',
-        'sculpt': '🗿',
-        'digital': '💻'
-      };
+    SHOP_EMOJI_MAP = {
+      'wood': '🪵',
+      'metal': '💥',
+      'glass': '⚗️',
+      'ceramic': '🏺',
+      'textile': '🧵',
+      'machine': '⚙️',
+      'leather': '👜',
+      'laser': '✂️',
+      'paint': '🎨',
+      '3d print': '💍',
+      'print': '🖼',
+      'sculpt': '🗿',
+      'digital': '💻',
+      'photo': '📸'
+    };
 
-      shopTypes = Object.keys(SHOP_EMOJI_MAP).sort();
-      shopEmojis = SHOP_EMOJI_MAP;
-      
-      // Extract unique neighborhoods
-      neighborhoodTypes = [...new Set(studios.map(studio => studio.neighborhood))].sort();
+    // Collect all unique shop types from the data
+    const existingShopTypes = new Set();
+    studios.forEach(studio => {
+      studio.shops.forEach(shop => {
+        existingShopTypes.add(shop.trim().toLowerCase());
+      });
+    });
+
+    // Filter shop types to only include those that exist in the data
+    shopTypes = Object.keys(SHOP_EMOJI_MAP)
+      .filter(shopType => existingShopTypes.has(shopType.toLowerCase()))
+      .sort();
+    
+    shopEmojis = SHOP_EMOJI_MAP;
+    
+    // Extract unique neighborhoods
+    neighborhoodTypes = [...new Set(studios.map(studio => studio.neighborhood))].sort();
       
       // Assign neighborhood emojis
       const fruitVegEmojis = ['🍎', '🍌', '🍉', '🍊', '🥦', '🥕', '🍆', '🍅', '🥑', '🌽', '🥒', '🌶️', '🥝', '🍇', '🍓', '🍈', '🍒'];
@@ -105,8 +118,9 @@ let studioOrder = [];
               return [
                 ...filteredShops.slice(0, visibleCount).map(shop => {
                     const emoji = SHOP_EMOJI_MAP[shop] || '❓';
+                    const isSingleShop = studio.shops.length === 1;
                     return `
-                    <div class="shop-item">
+                    <div class="shop-item ${isSingleShop ? 'single-shop' : ''}">
                       <div class="shop-emoji">${emoji}</div>
                       <div class="shop-label">${shop}</div>
                     </div>
@@ -134,10 +148,20 @@ let studioOrder = [];
           </div>
           <div class="description">${studio.description}
           </div>
-        <div class="contact-icons">
-             <a href="${studio.website}" target="_blank" class="contact-icon website"><span>🖥</span></a>
-            <a href="mailto:${studio.email}" class="contact-icon email"><span>📧</span></a>
-            <a href="tel:${studio.phone}" class="contact-icon phone"><span>📱</span></a>
+          <div class="contact">
+            <div class="contact-left">
+              <div class="studio-icon-container">
+                ${studio.icon ? `<img src="${studio.icon}" class="studio-icon">` : ''}
+              </div>
+              <span>contact info:</span>
+            </div>
+            <div class="contact-middle">
+                <a href="${studio.website}" target="_blank"><span>💻</span></a>
+                <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(studio.address)}" target="_blank"><span>🗺</span></a>
+                <a href="mailto:${studio.email}"><span>📧</span></a>
+                <a href="tel:${studio.phone}"><span>📱</span></a>
+            </div>
+          </div>
         </div>
         `;
       }
@@ -280,23 +304,27 @@ let studioOrder = [];
   }
 
   // Filter panel toggling
-  document.getElementById('shops-filter').addEventListener('click', (e) => {
-    // Close neighborhood panel first
-    document.getElementById('neighborhood-panel').style.display = 'none';
-    const panel = document.getElementById('shops-panel');
-    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
-    panel.style.top = `${e.clientY + 10}px`;
-    panel.style.left = `${e.clientX - 150}px`;
-  });
+document.getElementById('shops-filter').addEventListener('click', (e) => {
+  // Close neighborhood panel first
+  document.getElementById('neighborhood-panel').style.display = 'none';
+  const panel = document.getElementById('shops-panel');
+  panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+  const rect = e.currentTarget.getBoundingClientRect();
+  panel.style.top = `${rect.bottom + window.scrollY + 10}px`;
+  panel.style.right = `${window.innerWidth - rect.right}px`;
+  panel.style.left = 'auto';
+});
 
-  document.getElementById('neighborhood-filter').addEventListener('click', (e) => {
-    // Close shops panel first
-    document.getElementById('shops-panel').style.display = 'none';
-    const panel = document.getElementById('neighborhood-panel');
-    panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
-    panel.style.top = `${e.clientY + 10}px`;
-    panel.style.left = `${e.clientX - 150}px`;
-  });
+document.getElementById('neighborhood-filter').addEventListener('click', (e) => {
+  // Close shops panel first
+  document.getElementById('shops-panel').style.display = 'none';
+  const panel = document.getElementById('neighborhood-panel');
+  panel.style.display = panel.style.display === 'block' ? 'none' : 'block';
+  const rect = e.currentTarget.getBoundingClientRect();
+  panel.style.top = `${rect.bottom + window.scrollY + 10}px`;
+  panel.style.left = `${rect.left}px`;
+  panel.style.right = 'auto';
+});
 
   document.getElementById('clear-filters').addEventListener('click', () => {
     selectedShops = [];
