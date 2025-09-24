@@ -201,5 +201,19 @@
     "phone": "+17186253685",
     "address": "647 Fulton St, Brooklyn, NY 11217",
     "icon": "https://urbanglass.org/images/favIcon_32x32.ico"
+  },
+  {
+    "name": "Dirtbag Arthaus",
+    "neighborhood": "Bushwick",
+    "city": "Brooklyn",
+    "shops": [
+      "ceramic",
+      "painting"],
+    "description": "Brooklyn pottery & painting studio with wheels, workstations & kilns. LGBTQ+ inclusive creative space in Bushwick. Classes, memberships & day passes.",
+    "website": "https://www.dirtbagarthaus.com/",
+    "email": "info@dirtbagarthaus.com",
+    "phone": "+19089862199",
+    "address": "229 Cook St, Brooklyn, NY 11206",
+    "icon": "https://images.squarespace-cdn.com/content/v1/645ed9223516611d44cf349d/ce219da7-9b04-42cd-8f0c-2129312df450/favicon.ico?format=100w"
   }
 ]
